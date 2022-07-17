@@ -1,10 +1,65 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
-li {
-  float: left;
-  
+body {
+  background-color: antiquewhite
 }
+
+header {
+  display: block;
+  background-color: #fff;
+  height: 60px;
+  width: 100vw;
+  box-sizing: content-box;
+  position: relative; /*PARA QUE p PUEDA POSICIONARSE EN BASE A SU CONTENEDOR EL CONTENEDOR
+   TIENE QUE ESTAR POSICIONADO YA QUE p ES absolute*/
+}
+
+#te{
+  color:rgb(54, 54, 170);
+  font-family: 'Courier New', Courier, monospace;
+  position: absolute;
+  top: 30%;
+  right: 65%;
+  font-size: 20px;
+}
+
+header button {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  background: transparent;
+  border: none !important;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+#sim {
+  left: 65%;
+}
+
+#hex {
+  left: 73%;
+}
+
+header button:hover {
+  color:rgb(54, 54, 170);
+}
+
+/*--------------contenido------------------*/
+
+#content {
+  height: 100vw;
+  position: relative;
+}
+
+#main {
+  position: absolute;
+}
+
+#sub {
+  position: absolute;
+}
+
