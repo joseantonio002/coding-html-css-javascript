@@ -12,7 +12,12 @@
       <button type="button" id="hex">Hex</button>
     </header>
     <div id="content">
-      <button type="button" id="main">Background color : variable javascript</button>
+      <script>
+         function fun() {
+           document.getElementById("main").innerHTML = "Background color : #ffffff"
+         }
+      </script>
+      <button type="button" id="main" onclick="fun()">Background color : </button>
       <button type="button" id="sub">CLICK ME</button>
     </div>
   </body>
