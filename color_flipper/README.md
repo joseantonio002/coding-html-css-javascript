@@ -8,3 +8,5 @@ document.querySelector() - Primer elemento que coincida con el selector (id, cla
 document.querySelectorAll() - Todo elemento que coincida con el selector (id, clase, tag...)<br />
 [Etiqueta script<br />](https://pagedart.com/blog/how-to-link-javascript-to-html/)
 [Ejemplos<br />](https://www.w3schools.com/html/html_scripts.asp)
+---------------------------------------------------------------------
+Lo debería haber hecho con [target.addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
