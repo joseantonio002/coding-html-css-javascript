@@ -1,0 +1,93 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: antiquewhite
+}
+
+header {
+  display: block;
+  background-color: #fff;
+  height: 60px;
+  width: 100vw;
+  box-sizing: content-box;
+  position: relative; /*PARA QUE p PUEDA POSICIONARSE EN BASE A SU CONTENEDOR EL CONTENEDOR
+   TIENE QUE ESTAR POSICIONADO YA QUE p ES absolute*/
+}
+
+#te{
+  color:rgb(54, 54, 170);
+  font-family: 'Courier New', Courier, monospace;
+  position: absolute;
+  top: 30%;
+  right: 65%;
+  font-size: 20px;
+}
+
+header button {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  background: transparent;
+  border: none !important;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+#sim {
+  left: 65%;
+}
+
+#hex {
+  left: 73%;
+}
+
+header button:hover {
+  color:rgb(54, 54, 170);
+}
+
+
+/*--------------contenido------------------*/
+
+#content {
+  width: 100%;
+  position: absolute;
+  top: 60px;
+  bottom: 0;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#main:hover {
+  background-color: rgb(41, 36, 36);
+  color: rgb(197, 197, 164)
+}
+
+#main:active {
+  background-color: rgb(53, 45, 45);
+}
+
+#main {
+  background-color: rgb(39, 34, 34);
+  color: #fff;
+  height: 80px;
+  width: 410px;
+  border: 0;
+  border-radius: 9px;
+  box-sizing: content-box;
+  font-size: 150%;
+}
+
+#sub {
+  margin-top: 10px;
+  background: transparent;
+  font-size: 15px;
+  width: 100px;
+  height: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
