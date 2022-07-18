@@ -56,23 +56,14 @@ header button:hover {
   position: absolute;
   top: 60px;
   bottom: 0;
-  background-color: blue;
+  background-color: #FFF;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-#main:hover {
-  background-color: rgb(41, 36, 36);
-  color: rgb(197, 197, 164)
-}
-
-#main:active {
-  background-color: rgb(53, 45, 45);
-}
-
-#main {
+#sub {
   background-color: rgb(39, 34, 34);
   color: #fff;
   height: 80px;
@@ -83,11 +74,15 @@ header button:hover {
   font-size: 150%;
 }
 
-#sub {
+#main {
   margin-top: 10px;
   background: transparent;
   font-size: 15px;
   width: 100px;
   height: 30px;
   font-family: 'Courier New', Courier, monospace;
+}
+
+#sub span {
+  color:blue;
 }
