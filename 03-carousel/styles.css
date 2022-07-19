@@ -37,7 +37,7 @@
   justify-content: center;
   align-items: center;
   width: 70%;
-  height: 450px;
+  height: 453px;
   margin-left: 15%;
   overflow: hidden;
   box-sizing: content-box;
@@ -54,7 +54,6 @@
   margin-bottom: 10px;
   height: 200px;
 }
-
 
 /*----------------------------------------------*/
 
@@ -91,7 +90,6 @@
   outline: #0660b4 1px solid;
 }
   
-
 .right {
  position: relative;
  bottom: 1px;
@@ -110,7 +108,3 @@
   box-shadow: -1px -1px 0 0 #053b6e;
 }
   
-
-#relleno {
-  height: 30px;
-}
