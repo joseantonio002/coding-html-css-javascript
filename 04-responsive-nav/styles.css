@@ -1,0 +1,148 @@
+/* box-shadow: ejex ejey desenfoque cuantoborde color*/
+/* border: style width color*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family:sans-serif;
+  box-sizing: content-box;
+}
+
+#icons {
+  display: inline;
+}
+
+#navs {
+  height: 100px;
+  background-color:#eaf0f5;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-size: 30px;
+  margin-left: 15px;
+}
+
+.blue {
+  color: #3c3cdf;
+}
+
+
+/*----------------------big nav--------------------------*/
+
+#mobile_nav {
+  display: none; /*Por defecto no mostrar este nav*/
+}
+
+#complete_nav {
+  width: 100%;
+}
+
+#links {
+  display: inline;
+  margin-left: 18vw;
+}
+
+#links a {
+  font-size: 20px;
+}
+
+#links a:not(:first-child) {
+  margin-left: 35px;
+}
+
+#icons a {
+  margin-left: 8px;
+  position: relative;
+  left: 20vw;
+}
+
+/*--------------------mobile nav---------------------------*/
+@media only screen and (max-width: 970px) {
+  #complete_nav {
+    display: none;
+  }
+
+  #mobile_nav{
+    display: block;
+    width: 100%;
+  }
+
+  #top {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center
+  }
+
+  #btn {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: 15px;
+    top: 40px;
+  }
+
+  #menu {
+    background-color:blue;
+    opacity: 0.3;
+    margin-top: 20px;
+  }
+
+
+}
+
+/*
+
+@media only screen and (max-width: 970px) {
+  #complete_nav {
+    display: none;
+  }
+
+  #mobile_nav {
+    display: block;
+    width: 100%;
+  }
+
+  #top {
+    display: block;
+    height: 100px;
+    width: 100%;
+  }
+
+
+
+  #btn {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: 15px;
+    top: 40px;
+  }
+
+  #menu {
+    height: 100px;
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  #mobile_nav a {
+    display: block;
+  }
+
+}
+
+        <div id="top">
+          <span class="title">Coding</span><span class="title blue"> Addict</span>
+          <button id="btn"><i class="fa-solid fa-bars fa-xl"></i></button>
+        </div>
+        <div id="menu">
+          <a>Home</a>
+          <a>About</a>
+          <a>Projects</a>
+          <a>Contacts</a>
+        </div>
+
+*/
