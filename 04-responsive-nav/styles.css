@@ -63,12 +63,19 @@
   position: absolute;
   right: 15px;
   top: 40px;
+  transition-duration: 500ms;
+}
+
+#btn:active {
+  outline: solid #3c3cdf 2px;
+
 }
 
 #menu {
   height: 140px;
   width: 100%;
   background-color: #eaf0f5;
+  display: none;
 }
 
 #menu a{
