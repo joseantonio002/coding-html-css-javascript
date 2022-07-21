@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+.lateral {
+  height: 100%;
+  background-color: #dbe8ec;
+  transition: 1000ms;
+  position: relative;
+  display: none;
+  z-index: 50;
+}
+
+.showl {
+  width: 400px;
+  display: block;
+}
+
+#btn {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  right: 15px;
+  top: 40px;
+}
+
+#close {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  right: 15px; 
+  top: 5px;
+}
+
+.fa-xmark {
+  color: #f31212;
+}
+  
+#btn:active {
+  outline: solid #3c3cdf 2px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .showl {
+    width: 100%;
+  }
+
+}
+ 
