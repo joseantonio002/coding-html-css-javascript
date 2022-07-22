@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+.background {
+  background-image: url("./hero.jpeg");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#show {
+  height: 250px;
+  width: 40%;
+  background-color: #fff;
+  border-radius: 10px;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#show h1 {
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#show #btn {
+  background-color: #0000fc;
+  border-color: #0000fc;
+  border-radius: 5px;
+  width: 200px;
+  height: 35px;
+  font-size: 15px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#show #btn:active {
+  background-color: #4848ce;
+}
+
+.modal {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 50;
+  background-color: rgba(64, 64, 64, 0.5);
+  display: none;
+}
+
+#modalbox {
+  opacity: 1;
+  height: 230px;
+  width: 40%;
+  background-color: #fff;
+  border-radius: 10px;
+  position: absolute;
+  top: 32%;
+  left: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: red;
+  font-size: 30px;
+}
+
