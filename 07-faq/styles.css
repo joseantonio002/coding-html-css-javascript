@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+.question {
+  width: 620px;
+  margin-top: 20px;
+}
+
+.part1 {
+  background-color: green;
+  height: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.part2 {
+  background-color: aqua;
+  height: 100px;
+  display: none;
+}
+
+.part1 .btn {
+  position: absolute;
+  right: 5px;
+}
+
+.part1 .minus {
+  display: none;
+}
+
+/*--------colocar gran caja en medio abajo---*/
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content h1 {
+  margin-left: 140px;
+}
+
+
+/*---------------------------------------------*/
