@@ -33,7 +33,7 @@ html, body {
 }
 
 .part1 .minus {
-  display: none;
+  
 }
 
 /*--------colocar gran caja en medio abajo---*/
@@ -48,5 +48,12 @@ body {
   margin-left: 140px;
 }
 
-
 /*---------------------------------------------*/
+
+.show {
+  display: block;
+}
+
+.del {
+  display: none;
+}
