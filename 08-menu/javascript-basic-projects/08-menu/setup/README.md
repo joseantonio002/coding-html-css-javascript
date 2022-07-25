@@ -1,3 +1,5 @@
+En este caso voy a seguir el vídeo ya que utiliza muchas funciones que desconozco</br></br>
+
 [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)</br>
 [Filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)</br>
 [Dataset](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset)</br>

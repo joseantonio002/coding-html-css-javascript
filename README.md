@@ -4,3 +4,6 @@ Trying to learn frontend, i will be doing [this projects](https://www.freecodeca
 1) Maquetar con grid</br>
 2) CSS lo que dijo [sarosi](https://www.youtube.com/watch?v=OO1EYa-PQi8) de que todo se trae de :root</br>
 3) Este [video](https://www.youtube.com/watch?v=Qhaz36TZG5Y&list=PLS-qHYIRCZdVG97sjq-jpA0njfmeT8SqH&index=30)
+</br>4) Selectores de css</br>
+5) Propiedades de las imágenes</br>
+6) Entender bien el overflow</br>
