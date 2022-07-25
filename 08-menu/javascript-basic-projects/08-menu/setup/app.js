@@ -103,7 +103,18 @@ window.addEventListener("DOMContentLoaded", function () {
 })
 
 btns.forEach(function (btn) {
-  btn.addEventListener("click", function () {
-
+  btn.addEventListener("click", function (e) {
+    const btnCategory = e.currentTarget.dataset.id;
+    const fitlermenu = menu.filter(function (elm) {
+      if(elm.category == btnCategory) {
+        return elm;
+      }
+    });
+    if(btnCategory === "all") {
+      displayMenuItems(menu);
+    }
+    else {
+      displayMenuItems(fitlermenu);
+    }
   })
 }) 
